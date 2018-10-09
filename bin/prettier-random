@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+const fs = require('fs');
+const prettierConfig = require('../index');
+
+const content = JSON.stringify(prettierConfig(), null, 2);
+
+fs.writeFileSync('.prettierrc', content, 'utf8');

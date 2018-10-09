@@ -1,0 +1,10 @@
+{
+  "name": "prettier-random",
+  "version": "1.0.0",
+  "description": "generate random prettier configuration for the brave",
+  "main": "index.js",
+  "bin": "./bin/prettier-random",
+  "repository": "https://github.com/gillchristian/prettier-random.git",
+  "author": "gillchristian <gillchristiang@gmail.com>",
+  "license": "MIT"
+}
